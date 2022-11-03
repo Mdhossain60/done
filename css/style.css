@@ -1,0 +1,60 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+  body{
+    font-family: arial;
+  }
+
+
+ .container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+
+  h2{
+    font-size: 70px;
+    color:rgb(3,2,23) ;
+    margin-right: 15px;
+  }
+
+  button{
+    border: none;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 22px;
+  }
+
+
+  button .dark{
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+      display:block;
+     background-color: rgb(255,237,36);
+     color: rgb(3,2,23);
+     border-radius: 50%;
+     transition: 0.5s;
+  }
+
+
+  button .light{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+     display: block;
+     border-radius: 50%;
+    background-color:rgb(3,2,23);
+    color: white;
+ }
+
+ button:hover .dark{
+    margin-top: -40px;
+ }
